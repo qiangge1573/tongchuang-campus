@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="同窗 iOS 主屏图标">
+  <defs>
+    <linearGradient id="brandApple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D6FE8"/>
+      <stop offset="1" stop-color="#6A93F0"/>
+    </linearGradient>
+  </defs>
+  <!-- iOS 会自行裁圆角，这里满铺底图 -->
+  <rect width="180" height="180" fill="url(#brandApple)"/>
+  <circle cx="138" cy="44" r="42" fill="#FFFFFF" opacity="0.12"/>
+  <text x="90" y="119" text-anchor="middle" font-family="'PingFang SC','HarmonyOS Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="88" font-weight="700" fill="#FFFFFF">同</text>
+</svg>
