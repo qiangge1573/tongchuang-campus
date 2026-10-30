@@ -1,0 +1,20 @@
+{
+  "id": "/tongchuang-campus/",
+  "name": "同窗 · 校园社交",
+  "short_name": "同窗",
+  "description": "面向在校大学生的实名同学社交应用：动态、广场、消息与同学主页。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#F5F7FA",
+  "theme_color": "#3D6FE8",
+  "categories": ["social", "education"],
+  "icons": [
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
