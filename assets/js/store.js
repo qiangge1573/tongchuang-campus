@@ -37,7 +37,7 @@ function seedState(){
     ],
     posts: [
       {id:'p1', board:'home', author:'me', ts:NOW-2*H,
-       text:'在图书馆蹲了一下午，终于把操作系统的实验报告写完了🎉 出门抬头看到晚霞，突然觉得这一周都值了。兄弟们，操场见！',
+       text:'在图书馆蹲了一下午，终于把操作系统的实验报告写完了🎉 出门抬头看到晚霞，突然觉得这一周都值了。兄弟们，周末操场见！',
        imgs:[0], likes:[{u:'u1',ts:NOW-1.8*H},{u:'u2',ts:NOW-1.5*H}],
        comments:[{a:'u1',text:'求实验报告模板，下一届学弟先跪谢🙏',ts:NOW-1.7*H},{a:'u2',text:'操场走起，叫上子豪',ts:NOW-1.2*H}],
        views:36},
