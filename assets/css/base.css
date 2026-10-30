@@ -1,0 +1,23 @@
+/* ============================================================
+ * base.css —— 设计令牌与基础样式
+ * 颜色、圆角、阴影、字体统一收口在 :root 中，改主题只改这里。
+ * ============================================================ */
+/* ========== 设计令牌（对齐 UI 规范） ========== */
+:root{
+  --primary:#3D6FE8; --primary-hover:#2F5BC7; --primary-active:#274DA8; --primary-bg:#ECF1FD;
+  --orange:#FF8A3D; --like:#FF6B35; --orange-bg:#FFF3E9;
+  --text1:#1F2329; --text2:#646A73; --text3:#8F959E; --divider:#E5E8EC; --bg:#F5F7FA; --card:#FFFFFF;
+  --success:#2BB889; --success-bg:#E8F7F1; --warn:#FF9F0A; --danger:#F0443C; --danger-bg:#FDEDEB;
+  --radius-card:12px; --radius-btn:8px;
+  --shadow:0 1px 2px rgba(31,35,41,.04); --shadow-hover:0 4px 12px rgba(31,35,41,.08);
+  --font:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--font);background:var(--bg);color:var(--text1);font-size:14px;line-height:22px}
+button{font-family:inherit;font-size:14px;border:none;background:none;cursor:pointer;color:inherit}
+input,textarea{font-family:inherit;font-size:14px;color:var(--text1)}
+img{max-width:100%;display:block}
+a{color:var(--primary);text-decoration:none}
+.hidden{display:none!important}
+:focus-visible{outline:2px solid var(--primary);outline-offset:2px;border-radius:4px}
